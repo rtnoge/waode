@@ -1,7 +1,7 @@
 {
   "name": "WAOde",
   "short_name": "WAOde",
-  "start_url": "/",
+  "start_url": "/waode/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#25D366",
