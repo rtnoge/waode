@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WAODe</title>
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+      type="image/svg+xml"
+    />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#25D366" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+          alt="WAODe Logo"
+        />
+        <h1>WAODe</h1>
+      </div>
+      <h2>_Pesan instan tanpa kontak_</h2>
+
+      <label for="phone">Nomor Tujuan</label>
+      <div class="phone-input">
+        <span>+62</span>
+        <input
+          type="number"
+          id="phone"
+          placeholder="8123456789"
+          autocomplete="off"
+        />
+      </div>
+
+      <label for="message">Isi Pesan</label>
+      <textarea
+        id="message"
+        placeholder="Contoh: Hai nyet"
+        autocomplete="off"
+      ></textarea>
+
+      <button onclick="sendMessage()">Kirim Pesan</button>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
