@@ -9,6 +9,9 @@ function sendMessage() {
 
   const url = `https://wa.me/62${phone}?text=${encodeURIComponent(message)}`;
   window.open(url, "_blank");
+
+  document.getElementById("phone").value = "";
+  document.getElementById("message").value = "";
 }
 
 if ("serviceWorker" in navigator) {
